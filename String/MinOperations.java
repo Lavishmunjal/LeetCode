@@ -24,3 +24,27 @@ class Solution {
         return result;
     }
 }
+
+// Brute Force Approach
+
+// class Solution {
+//     public int[] minOperations(String boxes) {
+//         HashSet<Integer> set = new HashSet<>();
+//         for(int i=0; i<boxes.length(); i++){
+//             if(boxes.charAt(i)=='1'){
+//                 set.add(i);
+//             }
+            
+
+//         }
+//         int n = boxes.length();
+//         int[] answer = new int[n];
+
+//         for(int i=0; i<n; i++){
+//             for(int idx: set){
+//                 answer[i] += Math.abs(i-idx);
+//             }
+//         }
+//         return answer;
+//     }
+// }
