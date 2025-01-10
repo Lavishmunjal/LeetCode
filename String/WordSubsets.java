@@ -1,10 +1,11 @@
+import java.util.*;
 class WordSubsets {
     public static void main(String[] args) {
         String[] words1 = {"amazon","apple","facebook","google","leetcode"};
         String[] words2 = {"e","o"};
         System.out.println(wordSubsets(words1, words2));
     }
-    public List<String> wordSubsets(String[] words1, String[] words2) {
+    public static List<String> wordSubsets(String[] words1, String[] words2) {
         List<String> result = new ArrayList<>();
         
         // Step 1: Calculate the maximum frequency requirement for words2
