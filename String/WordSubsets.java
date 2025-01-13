@@ -35,7 +35,7 @@ class WordSubsets {
     }
     
     // Helper method to check if freq2 is a subset of temp
-    private boolean isSubset(int[] freq2, int[] temp) {
+    private static boolean isSubset(int[] freq2, int[] temp) {
         for (int i = 0; i < 26; i++) {
             if (temp[i] < freq2[i]) {
                 return false; // Not a subset
