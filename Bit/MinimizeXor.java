@@ -1,4 +1,10 @@
 class MinimizeXor {
+    public static void main(String[] args) {
+        MinimizeXor obj = new MinimizeXor();
+        int num1 = 10;
+        int num2 = 20;
+        System.out.println(obj.minimizeXor(num1, num2));
+    }
     public int minimizeXor(int num1, int num2) {
         int x = num1;
 
